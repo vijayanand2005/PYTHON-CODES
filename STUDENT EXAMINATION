@@ -1,0 +1,55 @@
+print(" STUDENT EXAMINATION " )
+
+name= input(" Enter Student Name = ")
+No= int(input(" Enter Reg. no  = "))
+print(" Student Reg No. = ",No )
+print(" Student Name = ",name)
+
+choice = input ( " Are u willing to write the exam : ")
+if choice == "YES" :
+    print ("You will be writing your exam on 8.00 am - 10.30 am , 5th October 2026")
+
+    print("5 subjects in 2 hours 30 mins , each subject 30 mins and all are mcqs, 20 questions per subject , totally 100 questions " )
+     
+    sub1= int(input(" MATHS = " ))
+    sub2= int(input(" SCIENCE = " ))
+    sub3= int(input(" SOCIAL SCIENCE = " ))
+    sub4= int(input(" ENGLISH = " ))
+    sub5= int(input(" TAMIL = " ))
+
+
+
+
+    total= sub1+sub2+sub3+sub4+sub5
+    avg=total/5
+
+    if total>50:
+        print(" STUDENT NAME = ", name)
+        print(" STUDENT REG NO. = " , No)
+        print(" STUDENT RESULT = PASS")
+        print(" TOTAL MARKS OBTAINED OUT OF 100 = ",total)
+        print(" Average  = ", avg)
+
+    else :
+        print(" STUDENT NAME = ", name)
+        print(" STUDENT REG NO. = " ,No )
+        print(" STUDENT RESULT = FAIL ")
+
+elif choice  == "NO" :
+    print("Take your own time and come again ")
+
+
+
+else:
+    print("invalid reply")
+
+
+
+
+
+     
+
+
+
+
+ 
