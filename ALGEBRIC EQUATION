@@ -1,0 +1,16 @@
+print("ALGEBRAIC EQUATION: (a + b)^2")
+
+a = int(input("Enter value of a: "))
+b = int(input("Enter value of b: "))
+
+print("\nFormula: (a + b)^2 = a^2 + 2ab + b^2")
+
+print("\nStep 1: Substitute the values")
+print("(",a,"+",b,")^2","= ",a,"^2 + 2(", a,")(", b,") + ", b,"^2")
+
+
+
+print("\nStep 3: Calculation ")
+print("=", a*a,"+",2*a*b,"+", b*b)
+
+print("\nFinal Answer =",(a+b)**2)
